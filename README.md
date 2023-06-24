@@ -61,6 +61,12 @@
 
 - Ao fazer login na rota POST /api/login, você receberá um token JWT válido. Inclua este token no cabeçalho da solicitação nas rotas protegidas da seguinte maneira:
 
+##Testes de Integração
+- Este projeto inclui testes de integração para garantir o correto funcionamento da API. Para executar os testes, utilize o seguinte comando:
+- php artisan test
+- php artisan test --filter UserIndexTest
+- php artisan test --filter UserShowTest
+
 ## Documentação Swagger
 - Esta API possui documentação Swagger gerada automaticamente. Para visualizar a documentação e explorar as rotas disponíveis, acesse:
 - http://localhost:8000/api/documentation
